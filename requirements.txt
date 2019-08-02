@@ -1,0 +1,4 @@
+PyAudio
+sounddevice
+SpeechRecognition
+baidu-aip
