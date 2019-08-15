@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-from src.play_aidio import play
-from src.record_audio import get_audio
+from utils.play_aidio import play
+from utils.record_audio import get_audio
 import pyaudio
 import threading
 import time,os
 import settings.DIR_PATH as path
-import subprocess
+
 
 def wake_rate():
     p = pyaudio.PyAudio()

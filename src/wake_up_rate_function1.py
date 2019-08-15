@@ -1,25 +1,18 @@
 # -*- coding: utf-8 -*-
 from utils.play_aidio import play
-import pyaudio
-import time,subprocess,os
+import time,subprocess
 import settings.DIR_PATH as path
 from utils import get_device_log as gdl
 
-def wake_ask():
-    # p = pyaudio.PyAudio()
-    GDL = gdl.Get_device_log()
+def wake_rate():
+    GDL = gdl.Get_device_log()  #初始化
     test_num = 0
     pass_num = 0
     fail_num = 0
-    men_question_list = os.listdir(path.men_question_file)
-    for i in men_question_list:
-        file_name = i.split(".")[0]
-        file_id = file_name.split("q")[1]
 
-        play('woman_wake_up', path.wake_up_file)
-        play(file_name, path.men_question_file)
-
-
+    while True:
+        test_num +=1
+        play('woman_wake_up',path.wake_up_file)  #播放唤醒词
         wake_finish_time = GDL.get_local_time()
         print(wake_finish_time)
         time.sleep(30)
@@ -43,8 +36,8 @@ def wake_ask():
             fail_dir_name = time.strftime("%y_%m_%d_%H_%M_%S")
             cmd = "xcopy /D "+path.DIR_PATH+"\\logs\\log "+path.DIR_PATH+"\\report\\error_log\\"+fail_dir_name+"\ /e"
             subprocess.call(cmd)
-        # print("\033[7;31m总共测试%s次，成功%s次\033[0m"%(test_num,pass_num))
+        print("\033[7;31m总共测试%s次，成功%s次\033[0m"%(test_num,pass_num))
 
 
 if __name__ == "__main__":
-    wake_ask()
+    wake_rate()

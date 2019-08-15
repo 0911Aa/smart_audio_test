@@ -6,9 +6,7 @@ Created on 2018年9月27日
 '''
 import pyaudio
 import wave
-import speech_recognition as sr     #语音识别模块
 import time
-from src.baidu_api import *
 import settings.DIR_PATH as path
 import os
 

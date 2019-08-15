@@ -5,10 +5,10 @@ import sounddevice as sd
 import time
 import settings.DIR_PATH as bpath
 
-def play(name):
+def play(name,type):
     chunk = 1024
     #
-    path = bpath.play_file+name+'.wav'
+    path = type+name+'.wav'
     f = wave.open(path,'rb')
     p = pyaudio.PyAudio()
 
