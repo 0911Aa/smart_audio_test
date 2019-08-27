@@ -2,109 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="468a5bbc-d26e-45e2-8ffb-6ec99e9adcbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/audio/wake_up/man_wake_up.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/wake_up/woman_wake_up.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wake_up_rate_function1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/get_device_log.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/handle_class/man_q1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/handle_class/man_q10.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/handle_class/man_q11.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/handle_class/man_q2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/handle_class/man_q3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/handle_class/man_q4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/handle_class/man_q5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/handle_class/man_q6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/handle_class/man_q7.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/handle_class/man_q8.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/handle_class/man_q9.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/1号路线.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/关闭导航.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/到红花湖.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/去红花湖.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/导航到家.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/导航去红花.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/带我去红花.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/打开导航.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/打电话给.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/打电话给尾.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/拨打100.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/拨打移动.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/挂断.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/接听.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/港惠新天地.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/第一个.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/第二个.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/红花湖附近.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/给妖铃铃八.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/women_question/handle_class/woman_q1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/women_question/handle_class/woman_q10.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/women_question/handle_class/woman_q11.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/women_question/handle_class/woman_q2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/women_question/handle_class/woman_q3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/women_question/handle_class/woman_q4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/women_question/handle_class/woman_q5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/women_question/handle_class/woman_q6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/women_question/handle_class/woman_q7.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/women_question/handle_class/woman_q8.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/women_question/handle_class/woman_q9.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/wake_up/你好小西.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/phone_call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/calling_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/music_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/img_match.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/men_question/man_q1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/men_question/man_q10.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/men_question/man_q2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/men_question/man_q3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/men_question/man_q4.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/men_question/man_q5.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/men_question/man_q6.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/men_question/man_q7.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/men_question/man_q8.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/men_question/man_q9.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/women_question/woman_q1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/women_question/woman_q10.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/women_question/woman_q2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/women_question/woman_q3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/women_question/woman_q4.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/women_question/woman_q5.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/women_question/woman_q6.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/women_question/woman_q7.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/women_question/woman_q8.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/women_question/woman_q9.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings/DIR_PATH.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings/DIR_PATH.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/Readme.html" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/Readme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/bin/gm_continuous_digit.abnf" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/bin/gm_continuous_digit.abnf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/bin/ise_cn/cn_sentence.txt" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/bin/ise_cn/cn_sentence.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/bin/ise_cn/cn_sentence.wav" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/bin/ise_cn/cn_sentence.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/bin/ise_cn/cn_syll.txt" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/bin/ise_cn/cn_syll.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/bin/ise_cn/cn_syll.wav" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/bin/ise_cn/cn_syll.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/bin/ise_cn/cn_syll2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/bin/ise_cn/cn_syll2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/bin/ise_cn/cn_word.txt" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/bin/ise_cn/cn_word.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/bin/ise_cn/cn_word.wav" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/bin/ise_cn/cn_word.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/bin/ise_en/en_sentence.txt" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/bin/ise_en/en_sentence.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/bin/ise_en/en_sentence.wav" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/bin/ise_en/en_sentence.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/bin/ise_en/en_word.txt" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/bin/ise_en/en_word.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/bin/ise_en/en_word.wav" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/bin/ise_en/en_word.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/bin/msc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/bin/msc.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/bin/msc/del.bat" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/bin/msc/del.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/bin/msc/msc.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/bin/msc/msc.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/bin/msc_x64.dll" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/bin/msc_x64.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/bin/source.txt" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/bin/source.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/bin/userwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/bin/userwords.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/bin/wav/en_weather.pcm" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/bin/wav/en_weather.pcm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/bin/wav/iflytek01.wav" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/bin/wav/iflytek01.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/bin/wav/iflytek02.wav" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/bin/wav/iflytek02.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/bin/wav/weather.pcm" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/bin/wav/weather.pcm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/doc/Grammar Development Guidelines.chm" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/doc/Grammar Development Guidelines.chm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/doc/Open Semantic Platform API Documents.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/doc/Open Semantic Platform API Documents.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/doc/Recording API Documents.doc" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/doc/Recording API Documents.doc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/doc/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/doc/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/include/msp_cmn.h" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/include/msp_cmn.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/include/msp_errors.h" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/include/msp_errors.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/include/msp_types.h" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/include/msp_types.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/include/qise.h" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/include/qise.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/include/qisr.h" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/include/qisr.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/include/qtts.h" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/include/qtts.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/libs/msc.lib" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/libs/msc.lib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/libs/msc_x64.lib" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/libs/msc_x64.lib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/release.txt" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/release.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/samples/iat_online_record_sample/iat_online_record_sample.c" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/samples/iat_online_record_sample/iat_online_record_sample.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/samples/iat_online_record_sample/iat_online_record_sample.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/samples/iat_online_record_sample/iat_online_record_sample.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/samples/iat_online_record_sample/iat_online_record_sample.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/samples/iat_online_record_sample/iat_online_record_sample.vcxproj.filters" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/samples/iat_online_record_sample/iat_online_record_sample.vcxproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/samples/iat_online_record_sample/iat_online_record_sample.vcxproj.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/samples/iat_online_record_sample/include/speech_recognizer.h" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/samples/iat_online_record_sample/include/speech_recognizer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/samples/iat_online_record_sample/include/winrec.h" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/samples/iat_online_record_sample/include/winrec.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/samples/iat_online_record_sample/speech_recognizer.c" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/samples/iat_online_record_sample/speech_recognizer.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/samples/iat_online_record_sample/winrec.c" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/samples/iat_online_record_sample/winrec.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/samples/iat_online_sample/iat_online_sample.c" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/samples/iat_online_sample/iat_online_sample.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/samples/iat_online_sample/iat_online_sample.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/samples/iat_online_sample/iat_online_sample.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/samples/iat_online_sample/iat_online_sample.vcxproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/samples/iat_online_sample/iat_online_sample.vcxproj.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/samples/ise_sample/ise_sample.c" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/samples/ise_sample/ise_sample.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/samples/ise_sample/ise_sample.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/samples/ise_sample/ise_sample.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/samples/ise_sample/ise_sample.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/samples/ise_sample/ise_sample.vcxproj.filters" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/samples/ise_sample/ise_sample.vcxproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/samples/ise_sample/ise_sample.vcxproj.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/samples/samples.sln" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/samples/samples.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/samples/sch_translate_sample/json.c" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/samples/sch_translate_sample/json.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/samples/sch_translate_sample/json.h" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/samples/sch_translate_sample/json.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/samples/sch_translate_sample/sch_translate_sample.c" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/samples/sch_translate_sample/sch_translate_sample.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/samples/sch_translate_sample/sch_translate_sample.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/samples/sch_translate_sample/sch_translate_sample.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/samples/sch_translate_sample/sch_translate_sample.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/samples/sch_translate_sample/sch_translate_sample.vcxproj.filters" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/samples/sch_translate_sample/sch_translate_sample.vcxproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/samples/sch_translate_sample/sch_translate_sample.vcxproj.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/samples/tts_online_sample/tts_online_sample.c" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/samples/tts_online_sample/tts_online_sample.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/samples/tts_online_sample/tts_online_sample.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/samples/tts_online_sample/tts_online_sample.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/Windows_iat1218_tts_online1218_5ba9b76f/samples/tts_online_sample/tts_online_sample.vcxproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/samples/tts_online_sample/tts_online_sample.vcxproj.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/man_q1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/audio/question/men_question/man_q1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/man_q10.wav" beforeDir="false" afterPath="$PROJECT_DIR$/audio/question/men_question/man_q10.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/man_q2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/audio/question/men_question/man_q2.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/man_q3.wav" beforeDir="false" afterPath="$PROJECT_DIR$/audio/question/men_question/man_q3.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/man_q4.wav" beforeDir="false" afterPath="$PROJECT_DIR$/audio/question/men_question/man_q4.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/man_q5.wav" beforeDir="false" afterPath="$PROJECT_DIR$/audio/question/men_question/man_q5.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/man_q6.wav" beforeDir="false" afterPath="$PROJECT_DIR$/audio/question/men_question/man_q6.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/man_q7.wav" beforeDir="false" afterPath="$PROJECT_DIR$/audio/question/men_question/man_q7.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/man_q8.wav" beforeDir="false" afterPath="$PROJECT_DIR$/audio/question/men_question/man_q8.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/man_q9.wav" beforeDir="false" afterPath="$PROJECT_DIR$/audio/question/men_question/man_q9.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/man_wake_up.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/woman_q1.wav" beforeDir="false" afterPath="$PROJECT_DIR$/audio/question/women_question/woman_q1.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/woman_q10.wav" beforeDir="false" afterPath="$PROJECT_DIR$/audio/question/women_question/woman_q10.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/woman_q2.wav" beforeDir="false" afterPath="$PROJECT_DIR$/audio/question/women_question/woman_q2.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/woman_q3.wav" beforeDir="false" afterPath="$PROJECT_DIR$/audio/question/women_question/woman_q3.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/woman_q4.wav" beforeDir="false" afterPath="$PROJECT_DIR$/audio/question/women_question/woman_q4.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/woman_q5.wav" beforeDir="false" afterPath="$PROJECT_DIR$/audio/question/women_question/woman_q5.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/woman_q6.wav" beforeDir="false" afterPath="$PROJECT_DIR$/audio/question/women_question/woman_q6.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/woman_q7.wav" beforeDir="false" afterPath="$PROJECT_DIR$/audio/question/women_question/woman_q7.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/woman_q8.wav" beforeDir="false" afterPath="$PROJECT_DIR$/audio/question/women_question/woman_q8.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/woman_q9.wav" beforeDir="false" afterPath="$PROJECT_DIR$/audio/question/women_question/woman_q9.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/woman_wake_up.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/1.pcm" beforeDir="false" afterPath="$PROJECT_DIR$/utils/1.pcm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/2.pcm" beforeDir="false" afterPath="$PROJECT_DIR$/utils/2.pcm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/2019-07-31-11-26-22.wav" beforeDir="false" afterPath="$PROJECT_DIR$/utils/2019-07-31-11-26-22.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/2019-07-31-15-13-30.wav" beforeDir="false" afterPath="$PROJECT_DIR$/utils/2019-07-31-15-13-30.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AI_baidu.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/AI_baidu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AI_win.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/AI_win.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baidu_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/baidu_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/play_aidio.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/play_aidio.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/py3_web.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/py3_web.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/record_audio.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/record_audio.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings/except_result.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings/except_result.ini" beforeDir="false" afterPath="$PROJECT_DIR$/settings/except_result.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/wake_up_and_ask.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/wake_up_and_ask.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wake_up_rate.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/wake_up_rate_function2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/get_device_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/get_device_log.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,10 +87,10 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/smart_audio$py3_web.coverage" NAME="py3_web Coverage Results" MODIFIED="1564560655880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/smart_audio$get_device_log.coverage" NAME="get_device_log Coverage Results" MODIFIED="1565851946912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/smart_audio$wake_up_rate_function1.coverage" NAME="wake_up_rate_function1 Coverage Results" MODIFIED="1565852696687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/smart_audio$get_device_log.coverage" NAME="get_device_log Coverage Results" MODIFIED="1566889365649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/smart_audio$wake_up_rate_function1.coverage" NAME="wake_up_rate_function1 Coverage Results" MODIFIED="1566878901721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/smart_audio$wake_up_rate.coverage" NAME="wake_up_rate Coverage Results" MODIFIED="1564562666744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/smart_audio$wake_up_and_ask.coverage" NAME="wake_up_and_ask Coverage Results" MODIFIED="1565854414878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/smart_audio$wake_up_and_ask.coverage" NAME="wake_up_and_ask Coverage Results" MODIFIED="1566889385234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/smart_audio$AI_web.coverage" NAME="AI_web Coverage Results" MODIFIED="1564466371593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/smart_audio$baidu_api.coverage" NAME="baidu_api Coverage Results" MODIFIED="1564558445050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/smart_audio$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1565853064889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
@@ -128,60 +101,68 @@
     <SUITE FILE_PATH="coverage/smart_audio$main.coverage" NAME="main Coverage Results" MODIFIED="1564551876103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/smart_audio$DIR_PATH.coverage" NAME="DIR_PATH Coverage Results" MODIFIED="1564560276676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/settings" />
     <SUITE FILE_PATH="coverage/smart_audio$play_aidio.coverage" NAME="play_aidio Coverage Results" MODIFIED="1564732883203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/smart_audio$calling_test.coverage" NAME="calling_test Coverage Results" MODIFIED="1566891825882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="993178006">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="7" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.13" value="3" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="19_08_26_17_46_49case1" value="1" />
           <entry key="README" value="2" />
           <entry key="bat" value="1" />
+          <entry key="format_all_1" value="1" />
           <entry key="ini" value="1" />
-          <entry key="md" value="2" />
-          <entry key="py" value="44" />
-          <entry key="text_all" value="18" />
-          <entry key="text_all_1" value="5" />
-          <entry key="text_all_new" value="7" />
-          <entry key="txt" value="18" />
+          <entry key="md" value="3" />
+          <entry key="png" value="12" />
+          <entry key="py" value="54" />
+          <entry key="text_all" value="21" />
+          <entry key="text_all_1" value="8" />
+          <entry key="text_all_new" value="21" />
+          <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Image" value="12" />
           <entry key="Ini" value="1" />
-          <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="51" />
-          <entry key="Python" value="44" />
+          <entry key="Markdown" value="3" />
+          <entry key="PLAIN_TEXT" value="74" />
+          <entry key="Python" value="54" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="README" value="24" />
           <entry key="dummy" value="55" />
-          <entry key="ini" value="14" />
-          <entry key="md" value="16" />
-          <entry key="py" value="5391" />
-          <entry key="txt" value="54" />
+          <entry key="ini" value="120" />
+          <entry key="md" value="109" />
+          <entry key="py" value="6911" />
+          <entry key="txt" value="119" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Ini" value="14" />
-          <entry key="Markdown" value="16" />
-          <entry key="PLAIN_TEXT" value="133" />
-          <entry key="Python" value="5391" />
+          <entry key="Ini" value="120" />
+          <entry key="Markdown" value="109" />
+          <entry key="PLAIN_TEXT" value="198" />
+          <entry key="Python" value="6911" />
         </counts>
       </usages-collector>
     </session>
@@ -191,38 +172,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/get_device_log.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="69" column="34" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="34" />
+            <state relative-caret-position="-162">
+              <caret line="98" column="44" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="44" />
               <folding>
                 <element signature="e#24#41#0" expanded="true" />
-                <marker date="1565854862337" expanded="true" signature="145:330" ph="..." />
-                <marker date="1565854862337" expanded="true" signature="212:326" ph="..." />
-                <marker date="1565854862337" expanded="true" signature="521:530" ph="..." />
-                <marker date="1565854862337" expanded="true" signature="1585:2217" ph="..." />
+                <marker date="1566889361953" expanded="true" signature="145:330" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logs/log/text_all">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="21342" column="127" selection-start-line="21342" selection-start-column="105" selection-end-line="21342" selection-end-column="127" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings/result.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/settings/except_result.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -230,8 +185,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/wake_up_and_ask.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-369">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="58">
+              <caret line="225" column="26" selection-start-line="225" selection-start-column="26" selection-end-line="225" selection-end-column="26" />
+              <folding>
+                <element signature="e#24#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/wake_up_rate_function1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/img_match.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+              <folding>
+                <element signature="e#24#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/calling_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="125" selection-start-line="125" selection-end-line="128" selection-end-column="20" />
+              <folding>
+                <element signature="e#24#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/music_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1694">
+              <caret line="77" column="21" lean-forward="true" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
               <folding>
                 <element signature="e#24#57#0" expanded="true" />
               </folding>
@@ -254,6 +254,8 @@
       <find>你好小西</find>
       <find>:CmdKeywordsCo</find>
       <find>mWakeup onWakeUp text</find>
+      <find>speakText end</find>
+      <find>将为您退出导航</find>
       <find>speakText end:</find>
     </findStrings>
   </component>
@@ -275,7 +277,6 @@
         <option value="$PROJECT_DIR$/src/AI_web.py" />
         <option value="$PROJECT_DIR$/record_files/result.txt" />
         <option value="$PROJECT_DIR$/src/AI_baidu.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/src/main.py" />
         <option value="$PROJECT_DIR$/src/baidu_api.py" />
         <option value="$PROJECT_DIR$/settings/result.txt" />
@@ -283,16 +284,20 @@
         <option value="$PROJECT_DIR$/src/play_aidio.py" />
         <option value="$PROJECT_DIR$/src/py3_web.py" />
         <option value="$PROJECT_DIR$/src/test.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/wake_up_rate.py" />
         <option value="$PROJECT_DIR$/logs/log/text_all" />
         <option value="$PROJECT_DIR$/utils/play_aidio.py" />
-        <option value="$PROJECT_DIR$/settings/DIR_PATH.py" />
         <option value="$PROJECT_DIR$/utils/test.py" />
-        <option value="$PROJECT_DIR$/src/wake_up_and_ask.py" />
         <option value="$PROJECT_DIR$/src/wake_up_rate_function1.py" />
-        <option value="$PROJECT_DIR$/utils/get_device_log.py" />
         <option value="$PROJECT_DIR$/settings/except_result.ini" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/settings/DIR_PATH.py" />
+        <option value="$PROJECT_DIR$/utils/img_match.py" />
+        <option value="$PROJECT_DIR$/src/wake_up_and_ask.py" />
+        <option value="$PROJECT_DIR$/utils/get_device_log.py" />
+        <option value="$PROJECT_DIR$/src/calling_test.py" />
+        <option value="$PROJECT_DIR$/src/music_test.py" />
       </list>
     </option>
   </component>
@@ -303,10 +308,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="55" />
-    <option name="y" value="23" />
-    <option name="width" value="1385" />
-    <option name="height" value="877" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1380" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -314,13 +319,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="smart-audio" type="b2602c69:ProjectViewProjectNode" />
               <item name="smart-audio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-audio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-audio" type="462c0819:PsiDirectoryNode" />
+              <item name="audio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-audio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-audio" type="462c0819:PsiDirectoryNode" />
+              <item name="audio" type="462c0819:PsiDirectoryNode" />
+              <item name="question" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-audio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-audio" type="462c0819:PsiDirectoryNode" />
+              <item name="audio" type="462c0819:PsiDirectoryNode" />
+              <item name="question" type="462c0819:PsiDirectoryNode" />
+              <item name="men_question" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-audio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-audio" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smart-audio" type="b2602c69:ProjectViewProjectNode" />
@@ -335,17 +362,13 @@
             <path>
               <item name="smart-audio" type="b2602c69:ProjectViewProjectNode" />
               <item name="smart-audio" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="smart-audio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smart-audio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -353,22 +376,22 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\audio\wake_up" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\audio\question\men_question\qa_class" />
+      <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\img" />
       <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\audio\question\women_question" />
       <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\audio\question\men_question" />
       <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\audio\question" />
-      <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\utils" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\audio\question" />
-      <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\sources" />
-      <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\src" />
-      <recent name="C:\Users\pengfy\PycharmProjects\smart-audio" />
-      <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\record_files" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\audio\question\men_question\qa_class" />
+      <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\audio\wake_up" />
+      <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\img" />
+      <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\audio\question\women_question\handle_class" />
+      <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\audio\question\men_question\handle_class" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -383,7 +406,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.wake_up_and_ask">
+  <component name="RunManager" selected="Python.calling_test">
+    <configuration name="calling_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="smart-audio" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/calling_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="get_device_log" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="smart-audio" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -398,28 +443,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/get_device_log.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="play_aidio" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="smart-audio" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\pengfy\PycharmProjects\smart-audio\utils\play_aidio.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -495,19 +518,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.play_aidio" />
       <item itemvalue="Python.get_device_log" />
       <item itemvalue="Python.wake_up_rate_function1" />
       <item itemvalue="Python.test (1)" />
       <item itemvalue="Python.wake_up_and_ask" />
+      <item itemvalue="Python.calling_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.calling_test" />
         <item itemvalue="Python.wake_up_and_ask" />
-        <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.wake_up_rate_function1" />
         <item itemvalue="Python.get_device_log" />
-        <item itemvalue="Python.play_aidio" />
+        <item itemvalue="Python.wake_up_rate_function1" />
+        <item itemvalue="Python.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -543,7 +566,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564730937546</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="增加通过log判断结果的唤醒率测试方案">
+      <created>1565859131037</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565859131037</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -557,21 +587,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19984803" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21960486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32786885" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924013" visible="true" weight="0.5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3502455" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.1295082" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848023" visible="true" weight="0.14918032" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34862384" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.4080645" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007599" side_tool="true" weight="0.57580644" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50151974" side_tool="true" weight="0.38032788" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.2431562" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -590,7 +621,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次上传" />
     <MESSAGE value="上传测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="上传测试" />
+    <MESSAGE value="增加通过log判断结果的唤醒率测试方案" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加通过log判断结果的唤醒率测试方案" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -790,13 +822,6 @@
     <entry file="file://$PROJECT_DIR$/baidu_source/aip/imagesearch.py" />
     <entry file="file://$PROJECT_DIR$/baidu_source/setup.py" />
     <entry file="file://$PROJECT_DIR$/baidu_source/aip/speech.py" />
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README" />
     <entry file="file://$PROJECT_DIR$/utils/AI_baidu.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -839,16 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="66">
-            <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/wake_up_rate_function2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -856,66 +871,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs/text_all">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17138">
-          <caret line="779" column="136" selection-start-line="779" selection-start-column="132" selection-end-line="779" selection-end-column="136" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/log/text_all_new">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-682275" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/text_all_new">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7128">
-          <caret line="324" column="82" selection-start-line="324" selection-start-column="68" selection-end-line="324" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/log/text_all_1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20859">
-          <caret line="31403" column="89" selection-start-line="31403" selection-start-column="68" selection-end-line="31403" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/text_all" />
+    <entry file="file://$PROJECT_DIR$/logs/log/text_all_new" />
     <entry file="file://$PROJECT_DIR$/utils/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#24#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wake_up_and_ask.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-369">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="e#24#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings/DIR_PATH.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="68" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wake_up_rate_function1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-276">
-          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-          <folding>
-            <element signature="e#24#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -930,24 +891,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/get_device_log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="69" column="34" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="34" />
-          <folding>
-            <element signature="e#24#41#0" expanded="true" />
-            <marker date="1565854862337" expanded="true" signature="145:330" ph="..." />
-            <marker date="1565854862337" expanded="true" signature="212:326" ph="..." />
-            <marker date="1565854862337" expanded="true" signature="521:530" ph="..." />
-            <marker date="1565854862337" expanded="true" signature="1585:2217" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logs/log/text_all">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="21342" column="127" selection-start-line="21342" selection-start-column="105" selection-end-line="21342" selection-end-column="127" />
+        <state relative-caret-position="-250235">
+          <caret line="3915" selection-start-line="3915" selection-end-line="3915" />
         </state>
       </provider>
     </entry>
@@ -956,8 +903,129 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/settings/except_result.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/01.png" />
+    <entry file="file://$PROJECT_DIR$/img/01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/02.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/error_log/19_08_26_17_21_42case1/text_all" />
+    <entry file="file://$PROJECT_DIR$/report/error_log/19_08_26_17_23_31case2/text_all" />
+    <entry file="file://$PROJECT_DIR$/logs/log/format_all_1">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/error_log/19_08_26_17_46_49case1">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="198">
+            <caret line="9" selection-start-line="9" selection-end-line="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="321" selection-start-line="321" selection-end-line="321" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/log/text_all_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619454">
+          <caret line="28876" selection-start-line="28876" selection-end-line="28876" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/DIR_PATH.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/text_all_new">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285765">
+          <caret line="16683" column="80" selection-start-line="16683" selection-start-column="80" selection-end-line="16683" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/get_device_log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="98" column="44" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="44" />
+          <folding>
+            <element signature="e#24#41#0" expanded="true" />
+            <marker date="1566889361953" expanded="true" signature="145:330" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wake_up_and_ask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="225" column="26" selection-start-line="225" selection-start-column="26" selection-end-line="225" selection-end-column="26" />
+          <folding>
+            <element signature="e#24#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wake_up_rate_function1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/file.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/img_match.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/calling_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="125" selection-start-line="125" selection-end-line="128" selection-end-column="20" />
+          <folding>
+            <element signature="e#24#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/music_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1694">
+          <caret line="77" column="21" lean-forward="true" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+          <folding>
+            <element signature="e#24#57#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

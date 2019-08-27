@@ -2,3 +2,7 @@ PyAudio
 sounddevice
 SpeechRecognition
 baidu-aip
+scikit_image
+uiautomator2
+numpy
+scipy
