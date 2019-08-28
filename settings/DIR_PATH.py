@@ -13,6 +13,7 @@ men_qa_file = DIR_PATH+'\\audio\\question\\men_question\\qa_class\\'
 women_handle_file = DIR_PATH+'\\audio\\question\\women_question\\handle_class\\'
 women_qa_file = DIR_PATH+'\\audio\\question\\women_question\\qa_class\\'
 img_path = DIR_PATH+"\\img\\"
+src_path = DIR_PATH+"\\src\\"
 
 def file_path():
     with open(currtxt_path,'r')as f:
