@@ -2,8 +2,87 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="468a5bbc-d26e-45e2-8ffb-6ec99e9adcbd" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/text_all_new" beforeDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/handle_class/man_q1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/handle_class/man_q10.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/handle_class/man_q11.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/handle_class/man_q2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/handle_class/man_q3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/handle_class/man_q4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/handle_class/man_q5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/handle_class/man_q6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/handle_class/man_q7.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/handle_class/man_q8.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/handle_class/man_q9.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/1号路线.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/关闭导航.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/到红花湖.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/去红花湖.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/导航到家.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/导航去红花.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/带我去红花.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/打开导航.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/打电话给.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/打电话给尾.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/拨打100.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/拨打移动.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/挂断.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/接听.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/港惠新天地.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/第一个.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/第二个.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/红花湖附近.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/men_question/qa_class/给妖铃铃八.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/women_question/handle_class/woman_q1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/women_question/handle_class/woman_q10.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/women_question/handle_class/woman_q11.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/women_question/handle_class/woman_q2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/women_question/handle_class/woman_q3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/women_question/handle_class/woman_q4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/women_question/handle_class/woman_q5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/women_question/handle_class/woman_q6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/women_question/handle_class/woman_q7.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/women_question/handle_class/woman_q8.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/question/women_question/handle_class/woman_q9.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/audio/wake_up/你好小西.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/phone_call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/calling_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/music_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/img_match.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/men_question/man_q1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/men_question/man_q10.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/men_question/man_q2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/men_question/man_q3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/men_question/man_q4.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/men_question/man_q5.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/men_question/man_q6.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/men_question/man_q7.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/men_question/man_q8.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/men_question/man_q9.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/women_question/woman_q1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/women_question/woman_q10.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/women_question/woman_q2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/women_question/woman_q3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/women_question/woman_q4.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/women_question/woman_q5.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/women_question/woman_q6.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/women_question/woman_q7.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/women_question/woman_q8.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio/question/women_question/woman_q9.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings/DIR_PATH.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings/DIR_PATH.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings/except_result.ini" beforeDir="false" afterPath="$PROJECT_DIR$/settings/except_result.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wake_up_and_ask.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/wake_up_and_ask.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/get_device_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/get_device_log.py" afterDir="false" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,14 +92,20 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/smart_audio$py3_web.coverage" NAME="py3_web Coverage Results" MODIFIED="1564560655880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/smart_audio$get_device_log.coverage" NAME="get_device_log Coverage Results" MODIFIED="1567493392740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/smart_audio$wake_up_rate_function1.coverage" NAME="wake_up_rate_function1 Coverage Results" MODIFIED="1566878901721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/smart_audio$get_img_ROI.coverage" NAME="get_img_ROI Coverage Results" MODIFIED="1566984472554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+=======
+    <SUITE FILE_PATH="coverage/smart_audio$get_device_log.coverage" NAME="get_device_log Coverage Results" MODIFIED="1566889365649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/smart_audio$wake_up_rate_function1.coverage" NAME="wake_up_rate_function1 Coverage Results" MODIFIED="1566878901721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
     <SUITE FILE_PATH="coverage/smart_audio$wake_up_rate.coverage" NAME="wake_up_rate Coverage Results" MODIFIED="1564562666744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/smart_audio$wake_up_and_ask.coverage" NAME="wake_up_and_ask Coverage Results" MODIFIED="1566889385234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/smart_audio$AI_web.coverage" NAME="AI_web Coverage Results" MODIFIED="1564466371593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/smart_audio$baidu_api.coverage" NAME="baidu_api Coverage Results" MODIFIED="1564558445050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/smart_audio$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1565853064889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/smart_audio$online_weather_test.coverage" NAME="online_weather_test Coverage Results" MODIFIED="1567508931467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/smart_audio$AI_win.coverage" NAME="AI_win Coverage Results" MODIFIED="1564486062112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/smart_audio$record_audio.coverage" NAME="record_audio Coverage Results" MODIFIED="1564401880997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
@@ -30,6 +115,13 @@
     <SUITE FILE_PATH="coverage/smart_audio$init_devices.coverage" NAME="init_devices Coverage Results" MODIFIED="1567482115174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/smart_audio$main.coverage" NAME="main Coverage Results" MODIFIED="1564551876103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/smart_audio$img2str.coverage" NAME="img2str Coverage Results" MODIFIED="1567047922122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+=======
+    <SUITE FILE_PATH="coverage/smart_audio$AI_win.coverage" NAME="AI_win Coverage Results" MODIFIED="1564486062112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/smart_audio$record_audio.coverage" NAME="record_audio Coverage Results" MODIFIED="1564401880997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/smart_audio$AI_baidu.coverage" NAME="AI_baidu Coverage Results" MODIFIED="1564533819970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/smart_audio$test.coverage" NAME="test Coverage Results" MODIFIED="1564562632294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/smart_audio$main.coverage" NAME="main Coverage Results" MODIFIED="1564551876103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
     <SUITE FILE_PATH="coverage/smart_audio$DIR_PATH.coverage" NAME="DIR_PATH Coverage Results" MODIFIED="1564560276676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/settings" />
     <SUITE FILE_PATH="coverage/smart_audio$play_aidio.coverage" NAME="play_aidio Coverage Results" MODIFIED="1564732883203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/smart_audio$calling_test.coverage" NAME="calling_test Coverage Results" MODIFIED="1566891825882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
@@ -38,21 +130,35 @@
     <session id="993178006">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+<<<<<<< HEAD
           <entry key="project.closed" value="24" />
           <entry key="project.open.time.0" value="8" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="3" />
+=======
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.0" value="7" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="3" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.25" value="1" />
+<<<<<<< HEAD
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="1" />
           <entry key="project.opened" value="32" />
+=======
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="20" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -63,39 +169,69 @@
           <entry key="format_all_1" value="1" />
           <entry key="ini" value="1" />
           <entry key="md" value="3" />
+<<<<<<< HEAD
           <entry key="png" value="20" />
           <entry key="py" value="73" />
           <entry key="text_all" value="25" />
           <entry key="text_all_1" value="11" />
           <entry key="text_all_new" value="31" />
           <entry key="txt" value="20" />
+=======
+          <entry key="png" value="12" />
+          <entry key="py" value="54" />
+          <entry key="text_all" value="21" />
+          <entry key="text_all_1" value="8" />
+          <entry key="text_all_new" value="21" />
+          <entry key="txt" value="19" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<<<<<<< HEAD
           <entry key="Image" value="20" />
           <entry key="Ini" value="1" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="92" />
           <entry key="Python" value="73" />
+=======
+          <entry key="Image" value="12" />
+          <entry key="Ini" value="1" />
+          <entry key="Markdown" value="3" />
+          <entry key="PLAIN_TEXT" value="74" />
+          <entry key="Python" value="54" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="README" value="24" />
+<<<<<<< HEAD
           <entry key="dummy" value="106" />
           <entry key="ini" value="120" />
           <entry key="md" value="109" />
           <entry key="py" value="8551" />
           <entry key="txt" value="182" />
+=======
+          <entry key="dummy" value="55" />
+          <entry key="ini" value="120" />
+          <entry key="md" value="109" />
+          <entry key="py" value="6911" />
+          <entry key="txt" value="119" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Ini" value="120" />
           <entry key="Markdown" value="109" />
+<<<<<<< HEAD
           <entry key="PLAIN_TEXT" value="312" />
           <entry key="Python" value="8551" />
+=======
+          <entry key="PLAIN_TEXT" value="198" />
+          <entry key="Python" value="6911" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
         </counts>
       </usages-collector>
     </session>
@@ -103,52 +239,107 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/off_line_radio_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="4114">
               <caret line="194" column="25" selection-start-line="194" selection-start-column="25" selection-end-line="194" selection-end-column="25" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/utils/get_device_log.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-162">
+              <caret line="98" column="44" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="44" />
+              <folding>
+                <element signature="e#24#41#0" expanded="true" />
+                <marker date="1566889361953" expanded="true" signature="145:330" ph="..." />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/online_NAVI.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
               <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/wake_up_and_ask.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="225" column="26" selection-start-line="225" selection-start-column="26" selection-end-line="225" selection-end-column="26" />
+              <folding>
+                <element signature="e#24#57#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/wake_up_rate_function1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/mix_calling_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1188">
               <caret line="59" column="50" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
+=======
+        <entry file="file://$PROJECT_DIR$/utils/img_match.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+              <folding>
+                <element signature="e#24#33#0" expanded="true" />
+              </folding>
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/utils/img2str.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
               <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
               <folding>
                 <element signature="e#24#42#0" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/calling_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="125" selection-start-line="125" selection-end-line="128" selection-end-column="20" />
+              <folding>
+                <element signature="e#24#57#0" expanded="true" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/online_weather_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="697">
               <caret line="727" column="23" selection-start-line="727" selection-start-column="23" selection-end-line="727" selection-end-column="23" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/music_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1694">
+              <caret line="77" column="21" lean-forward="true" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
               <folding>
                 <element signature="e#24#57#0" expanded="true" />
               </folding>
@@ -171,8 +362,13 @@
       <find>你好小西</find>
       <find>:CmdKeywordsCo</find>
       <find>mWakeup onWakeUp text</find>
+<<<<<<< HEAD
       <find>将为您退出导航</find>
       <find>speakText end</find>
+=======
+      <find>speakText end</find>
+      <find>将为您退出导航</find>
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
       <find>speakText end:</find>
     </findStrings>
   </component>
@@ -208,6 +404,7 @@
         <option value="$PROJECT_DIR$/src/wake_up_rate_function1.py" />
         <option value="$PROJECT_DIR$/settings/except_result.ini" />
         <option value="$PROJECT_DIR$/README.md" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/utils/img_match.py" />
         <option value="$PROJECT_DIR$/src/wake_up_and_ask.py" />
         <option value="$PROJECT_DIR$/src/calling_test.py" />
@@ -221,6 +418,15 @@
         <option value="$PROJECT_DIR$/src/init_devices.py" />
         <option value="$PROJECT_DIR$/utils/get_device_log.py" />
         <option value="$PROJECT_DIR$/src/online_weather_test.py" />
+=======
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/settings/DIR_PATH.py" />
+        <option value="$PROJECT_DIR$/utils/img_match.py" />
+        <option value="$PROJECT_DIR$/src/wake_up_and_ask.py" />
+        <option value="$PROJECT_DIR$/utils/get_device_log.py" />
+        <option value="$PROJECT_DIR$/src/calling_test.py" />
+        <option value="$PROJECT_DIR$/src/music_test.py" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
       </list>
     </option>
   </component>
@@ -231,10 +437,17 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="-22" />
     <option name="y" value="23" />
     <option name="width" value="1372" />
     <option name="height" value="739" />
+=======
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1380" />
+    <option name="height" value="788" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -242,7 +455,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,6 +469,32 @@
             <path>
               <item name="smart-audio" type="b2602c69:ProjectViewProjectNode" />
               <item name="smart-audio" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name="audio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-audio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-audio" type="462c0819:PsiDirectoryNode" />
+              <item name="audio" type="462c0819:PsiDirectoryNode" />
+              <item name="question" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-audio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-audio" type="462c0819:PsiDirectoryNode" />
+              <item name="audio" type="462c0819:PsiDirectoryNode" />
+              <item name="question" type="462c0819:PsiDirectoryNode" />
+              <item name="men_question" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-audio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-audio" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-audio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-audio" type="462c0819:PsiDirectoryNode" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
               <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -269,29 +511,50 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="D:/G6PH_CI/svt-g6ph_auto" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\img" />
       <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\audio\question\men_question\qa_class" />
+=======
+      <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\audio\question\men_question\qa_class" />
+      <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\img" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
       <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\audio\question\women_question" />
       <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\audio\question\men_question" />
       <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\audio\question" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\audio\question\men_question\handle_class" />
       <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\audio\question\men_question\qa_class" />
       <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\utils" />
       <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\audio\wake_up" />
       <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\img" />
+=======
+      <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\audio\question\men_question\qa_class" />
+      <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\audio\wake_up" />
+      <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\img" />
+      <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\audio\question\women_question\handle_class" />
+      <recent name="C:\Users\pengfy\PycharmProjects\smart-audio\audio\question\men_question\handle_class" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
     </key>
   </component>
   <component name="RunDashboard">
@@ -306,8 +569,13 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.online_weather_test">
     <configuration name="get_device_log" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+  <component name="RunManager" selected="Python.calling_test">
+    <configuration name="calling_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
       <module name="smart-audio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -315,12 +583,20 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/get_device_log.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/calling_test.py" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -329,7 +605,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="img2str" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="get_device_log" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
       <module name="smart-audio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -342,7 +622,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/img2str.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/get_device_log.py" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -351,7 +635,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="init_devices" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
       <module name="smart-audio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -359,12 +647,20 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/init_devices.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/test.py" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -373,7 +669,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="online_weather_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="wake_up_and_ask" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
       <module name="smart-audio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -386,7 +686,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/online_weather_test.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/wake_up_and_ask.py" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -395,7 +699,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="radio_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="wake_up_rate_function1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
       <module name="smart-audio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -408,7 +716,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="C:\Users\pengfy\PycharmProjects\smart-audio\src\off_line_radio_test.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/wake_up_rate_function1.py" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -418,6 +730,7 @@
       <method v="2" />
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="Python.radio_test" />
       <item itemvalue="Python.img2str" />
       <item itemvalue="Python.online_weather_test" />
@@ -431,6 +744,21 @@
         <item itemvalue="Python.init_devices" />
         <item itemvalue="Python.radio_test" />
         <item itemvalue="Python.img2str" />
+=======
+      <item itemvalue="Python.get_device_log" />
+      <item itemvalue="Python.wake_up_rate_function1" />
+      <item itemvalue="Python.test (1)" />
+      <item itemvalue="Python.wake_up_and_ask" />
+      <item itemvalue="Python.calling_test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.calling_test" />
+        <item itemvalue="Python.wake_up_and_ask" />
+        <item itemvalue="Python.get_device_log" />
+        <item itemvalue="Python.wake_up_rate_function1" />
+        <item itemvalue="Python.test (1)" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
       </list>
     </recent_temporary>
   </component>
@@ -473,6 +801,7 @@
       <option name="project" value="LOCAL" />
       <updated>1565859131037</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00005" summary="增加导航问答">
       <created>1566895200314</created>
       <option name="number" value="00005" />
@@ -502,6 +831,9 @@
       <updated>1567509089288</updated>
     </task>
     <option name="localTasksCounter" value="9" />
+=======
+    <option name="localTasksCounter" value="5" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -515,30 +847,48 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+<<<<<<< HEAD
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26215807" />
+=======
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21960486" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.1295082" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848023" weight="0.5409836" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848023" visible="true" weight="0.14918032" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34862384" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.4080645" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.59180325" />
+=======
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50151974" side_tool="true" weight="0.38032788" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.2431562" />
       <window_info anchor="bottom" id="Python Console" order="12" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Messages" order="13" />
+=======
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
+<<<<<<< HEAD
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25835866" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -563,10 +913,13 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
     </layout-to-restore>
+=======
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+<<<<<<< HEAD
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -593,6 +946,8 @@
       </map>
     </option>
   </component>
+=======
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -600,10 +955,14 @@
     <MESSAGE value="第一次上传" />
     <MESSAGE value="上传测试" />
     <MESSAGE value="增加通过log判断结果的唤醒率测试方案" />
+<<<<<<< HEAD
     <MESSAGE value="增加导航问答" />
     <MESSAGE value="增加图像问题识别功能" />
     <MESSAGE value="在radio中进行文字识别，并作为判断依据" />
     <option name="LAST_COMMIT_MESSAGE" value="在radio中进行文字识别，并作为判断依据" />
+=======
+    <option name="LAST_COMMIT_MESSAGE" value="增加通过log判断结果的唤醒率测试方案" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -755,6 +1114,44 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/pyaudio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2981">
+          <caret line="835" column="8" selection-start-line="835" selection-start-column="8" selection-end-line="835" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/man_q3.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1055577769/time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="172" column="4" selection-start-line="172" selection-start-column="4" selection-end-line="172" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/wave.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-215">
+          <caret line="443" selection-start-line="443" selection-end-line="443" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/audio/Windows_iat1218_tts_online1218_5ba9b76f/bin/msc/del.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1055577769/sys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="231" column="4" selection-start-line="231" selection-start-column="4" selection-end-line="231" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
     <entry file="file://C:/Python37/Lib/site-packages/websocket/__init__.py" />
     <entry file="file://$PROJECT_DIR$/src/AI_web.py" />
     <entry file="file://C:/Python37/Lib/site-packages/websocket/_app.py">
@@ -817,6 +1214,10 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/logs/text_all" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
     <entry file="file://$PROJECT_DIR$/logs/log/text_all_new" />
     <entry file="file://$PROJECT_DIR$/utils/test.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -829,10 +1230,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logs/log/text_all" />
+=======
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+            <marker date="1565852696647" expanded="true" signature="143:148" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/log/text_all">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-250235">
+          <caret line="3915" selection-start-line="3915" selection-end-line="3915" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
     <entry file="file://$PROJECT_DIR$/settings/result.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -852,8 +1270,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/report/error_log/19_08_26_17_21_42case1/text_all" />
     <entry file="file://$PROJECT_DIR$/report/error_log/19_08_26_17_23_31case2/text_all" />
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/logs/log/format_all_1" />
     <entry file="file://$PROJECT_DIR$/report/error_log/19_08_26_17_46_49case1" />
+=======
+    <entry file="file://$PROJECT_DIR$/logs/log/format_all_1">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/error_log/19_08_26_17_46_49case1">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -871,6 +1298,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/logs/log/text_all_1" />
     <entry file="file://$PROJECT_DIR$/img/phone_call.png">
       <provider selected="true" editor-type-id="images" />
@@ -912,11 +1340,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+=======
+    <entry file="file://$PROJECT_DIR$/logs/log/text_all_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619454">
+          <caret line="28876" selection-start-line="28876" selection-end-line="28876" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/settings/DIR_PATH.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="227">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
@@ -959,10 +1401,42 @@
           <caret line="194" column="25" selection-start-line="194" selection-start-column="25" selection-end-line="194" selection-end-column="25" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
+=======
+        <state relative-caret-position="308">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/text_all_new">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285765">
+          <caret line="16683" column="80" selection-start-line="16683" selection-start-column="80" selection-end-line="16683" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/get_device_log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="98" column="44" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="44" />
+          <folding>
+            <element signature="e#24#41#0" expanded="true" />
+            <marker date="1566889361953" expanded="true" signature="145:330" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/wake_up_and_ask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="225" column="26" selection-start-line="225" selection-start-column="26" selection-end-line="225" selection-end-column="26" />
+          <folding>
+            <element signature="e#24#57#0" expanded="true" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/online_NAVI.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -983,14 +1457,49 @@
           <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding>
             <element signature="e#24#42#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/wake_up_rate_function1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/file.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/img_match.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/calling_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="125" selection-start-line="125" selection-end-line="128" selection-end-column="20" />
+          <folding>
+            <element signature="e#24#57#0" expanded="true" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/online_weather_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="727" column="23" selection-start-line="727" selection-start-column="23" selection-end-line="727" selection-end-column="23" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/music_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1694">
+          <caret line="77" column="21" lean-forward="true" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
           <folding>
             <element signature="e#24#57#0" expanded="true" />
           </folding>

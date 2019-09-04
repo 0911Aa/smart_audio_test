@@ -5,5 +5,9 @@ baidu-aip
 scikit_image
 uiautomator2
 numpy
+<<<<<<< HEAD
 scipy
 pytesseract
+=======
+scipy
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea

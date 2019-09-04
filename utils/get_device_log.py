@@ -16,10 +16,17 @@ class Get_device_log:
         :return:
         """
         try:
+<<<<<<< HEAD
             cmd = "adb pull sdcard/txz/log/text_all "+path.device_log_path
             subprocess.call(cmd,shell=True)
             cmd = "adb pull sdcard/txz/log/text_all_1 "+path.device_log_path
             subprocess.call(cmd,shell=True)
+=======
+            cmd = "adb pull sdcard/txz/log/text_all_1 "+path.device_log_path
+            subprocess.call(cmd,shell=True)
+            cmd = "adb pull sdcard/txz/log/text_all "+path.device_log_path
+            subprocess.call(cmd,shell=True)
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
             # p = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             # file_list = os.listdir(path.device_log_path+"\\log")
             # print(file_list)
@@ -29,6 +36,7 @@ class Get_device_log:
                 # data1 = f1.read()
             with open(path.device_log_path+"\\text_all",'rb') as f2:
                 data2 = f2.read()
+<<<<<<< HEAD
             with open(path.device_log_path+"\\text_all_new",'a',encoding="utf-8") as f3:
 
                 # f3.writelines(data1[-500:])
@@ -45,6 +53,23 @@ class Get_device_log:
         #     with open(path.device_log_path+"\\text_all_new",'wb') as f3:
         #         time.sleep(1)
         #         f3.write(data2)
+=======
+            with open(path.device_log_path+"\\text_all_new",'w',encoding="utf-8") as f3:
+                # f3.writelines(data1[-500:])
+                f3.write(data1.decode("utf-8"))
+                time.sleep(1)
+                f3.write(data2.decode("utf-8"))
+        except:
+
+        # else:
+            cmd = "adb pull sdcard/txz/log/text_all " + path.device_log_path
+            subprocess.call(cmd, shell=True)
+            with open(path.device_log_path+"\\log\\text_all",'rb') as f2:
+                data2 = f2.read()
+            with open(path.device_log_path+"\\text_all_new",'wb') as f3:
+                time.sleep(1)
+                f3.write(data2)
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
 
 
     def get_begin_parse(self):
@@ -106,6 +131,7 @@ class Get_device_log:
             else:
                 return None
 
+<<<<<<< HEAD
     def get_last_4_ret(self,keyword):
         with open(path.device_log_path+"\\text_all_new","r",encoding="utf-8") as f:
             data = f.readlines()
@@ -123,13 +149,20 @@ class Get_device_log:
                     # return line
             return None
 
+=======
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
 
 
 if __name__ == "__main__":
     gl = Get_device_log()
     gl.get_device_log()
+<<<<<<< HEAD
     # end_time = gl.get_device_wake()
     # print(end_time)
+=======
+    end_time = gl.get_device_wake()
+    print(end_time)
+>>>>>>> b158b9c6955735214ad088db01310cb480cf34ea
     # start_time = gl.get_begin_parse()
     # print(start_time)
     # print(gl.get_last_ret("已为您规划3个导航路线"))
