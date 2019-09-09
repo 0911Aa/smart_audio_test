@@ -75,7 +75,7 @@ class Get_device_log:
             data = f.readlines()
             parse_list = []
             for line in data:
-                if "mWakeup onWakeUp text" in line:
+                if "mWakeup onWakeUp text" in line and "你好小西" in line:
                     # print(line)
                     parse_list.append(line)
             # print(parse_list)

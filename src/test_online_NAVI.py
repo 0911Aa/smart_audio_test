@@ -5,24 +5,27 @@ import settings.DIR_PATH as path
 from utils import get_device_log as gdl
 import uiautomator2 as u
 from utils import img_match
+import pytest,time,allure,sys
+from config import *
 
+
+GDL = gdl.Get_device_log()
+
+@allure.feature("测试发现")
+@pytest.mark.usefixtures('driver_setup')
+@pytest.mark.P1
 class Wake_ask:
-    def __init__(self):
-        cmd = "python -m uiautomator2 init"
-        subprocess.call(cmd, shell=True)
-        self.GDL = gdl.Get_device_log()
-        self.driver = u.connect("192.168.0.2:5555")
 
     def test_case1(self):
         play('你好小西', path.wake_up_file)
-        wake_finish_time = self.GDL.get_local_time()
+        wake_finish_time = GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
         time.sleep(2)
         play("打开导航", path.men_qa_file)
         time.sleep(15)
         result = img_match.picture_match(self.driver,"03.png")
 
-        self.GDL.get_device_log()
+        GDL.get_device_log()
         start_time = self.GDL.get_begin_parse()
         print("atart_time",start_time)
         check_time = abs(wake_finish_time-start_time)

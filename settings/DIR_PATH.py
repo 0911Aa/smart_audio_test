@@ -14,6 +14,7 @@ women_handle_file = DIR_PATH+'\\audio\\question\\women_question\\handle_class\\'
 women_qa_file = DIR_PATH+'\\audio\\question\\women_question\\qa_class\\'
 img_path = DIR_PATH+"\\img\\"
 src_path = DIR_PATH+"\\src\\"
+log_path = DIR_PATH+"\\logs\\text_all"
 
 def file_path():
     with open(currtxt_path,'r')as f:

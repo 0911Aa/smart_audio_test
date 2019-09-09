@@ -8,7 +8,9 @@ def get_str():
     img = Image.open(path.src_path+'file1.png')
     text = pytesseract.image_to_string(img,lang='eng')
     try:
-        return text.split()[0]
+        if " " in text:
+            return text.split()[0]
+        return text.split('.')[0]+'.'+text.split('.')[1]
     except:
         return "0"
 

@@ -6,6 +6,8 @@ import uiautomator2 as u
 from utils import img_match
 from utils.img2str import get_str
 from utils.get_img_ROI import get_ROIimg
+from utils import check_time_and_result as ck
+from config import *
 
 class Music_ask:
     def __init__(self):
@@ -25,7 +27,7 @@ class Music_ask:
         time.sleep(10)
         # play("第一个", path.men_qa_file)
         # time.sleep(10)
-        result = img_match.picture_match(self.driver,"radio.png",0.95)
+        result = img_match.picture_match(self.driver,["radio.png"],0.95)
 
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -87,7 +89,7 @@ class Music_ask:
         time.sleep(2)
         play("调频88", path.men_qa_file)
         time.sleep(10)
-        result = img_match.picture_match(self.driver,"radio88.png",0.99)
+        result = img_match.picture_match(self.driver,["radio88.png"],0.99)
 
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -115,7 +117,7 @@ class Music_ask:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        time.sleep(wake_time)
         play("下一个频道", path.men_qa_file)
         time.sleep(10)
         self.driver.screenshot("file.png")
@@ -123,6 +125,10 @@ class Music_ask:
         time.sleep(1)
         ret_aft = get_str()
         print(ret_bef,ret_aft)
+        if float(ret_aft)>float(ret_bef) and ret_aft!="0" and ret_bef!="0":
+            result = True
+        else:
+            result = False
         # result = img_match.picture_match(self.driver,"radio88.png",0.99)
 
         self.GDL.get_device_log()
@@ -130,17 +136,7 @@ class Music_ask:
         print("start_time",start_time)
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
-        if check_time>=5:
-            print("\033[7;44mcase4唤醒失败\033[0m")
-        else:
-            print("\033[7;31mcase4唤醒成功\033[0m")
-        if float(ret_aft)>float(ret_bef) and ret_aft!="0" and ret_bef!="0":
-            print("\033[7;31mcase4测试通过\033[0m")
-        else:
-            print("\033[7;44mcase4测试失败\033[0m")
-            fail_dir_name = time.strftime("%y_%m_%d_%H_%M_%S")
-            cmd = "adb pull sdcard/txz/log " +path.DIR_PATH+"\\report\\error_log\\"+fail_dir_name+"case4\\"
-            subprocess.call(cmd)
+        ck.check(check_time, result, '电台case4')
 
     def test_case5(self):
         self.driver.screenshot("file.png")

@@ -1,18 +1,16 @@
 # -*- coding: utf-8 -*-
 from utils.play_aidio import play
-import time,subprocess,os
 import settings.DIR_PATH as path
 from utils import get_device_log as gdl
-import uiautomator2 as u
 from utils import img_match
 import pytest,time,allure
 from utils import check_time_and_result as ck
 from utils.driver import Driver
 from config import *
 
-@allure.feature("导航测试")
-@pytest.mark.P2
-class Teat_Call:
+@allure.feature("通话测试")
+@pytest.mark.P1
+class Test_Call:
     def setup_class(cls):
         dr = Driver()
         cls.driver = dr.init_driver(device_name)
@@ -89,29 +87,3 @@ class Teat_Call:
     #         fail_dir_name = time.strftime("%y_%m_%d_%H_%M_%S")
     #         cmd = "adb pull sdcard/txz/log " + path.DIR_PATH + "\\report\\error_log\\" + fail_dir_name + "case1\\"
     #         subprocess.call(cmd)
-    #
-    # def test_case4(self):
-    #     play('你好小西', path.wake_up_file)
-    #     time.sleep(2)
-    #     play("导航去红花", path.men_qa_file)
-    #     time.sleep(10)
-    #     play("第二个", path.men_qa_file)
-    #     time.sleep(15)
-    #     play("第一个", path.men_qa_file)
-    #     time.sleep(30)
-    #     self.GDL.get_device_log()
-    #     result = self.GDL.get_last_ret("个导航路线")
-    #     if result:
-    #         print("\033[7;31mcase4测试通过\033[0m")
-    #     else:
-    #         print("\033[7;44mcase4测试失败\033[0m")
-    #         fail_dir_name = time.strftime("%y_%m_%d_%H_%M_%S")
-    #         cmd = "adb pull sdcard/txz/log " +path.DIR_PATH+"\\report\\error_log\\"+fail_dir_name+"case4\\"
-    #         subprocess.call(cmd)
-
-
-
-if __name__ == "__main__":
-    ask = Call_ask()
-    ask.test_case1()
-    ask.test_case2()
