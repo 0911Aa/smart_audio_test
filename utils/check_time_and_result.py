@@ -12,8 +12,9 @@ def check(check_time,result,case_name):
     if result and status:
         print("\033[7;31m%s测试通过\033[0m"%case_name)
     else:
-        # fail_dir_name = time.strftime("%y_%m_%d_%H_%M_%S")
-        # cmd = "adb pull sdcard/txz/log " + path.DIR_PATH + "\\report\\error_log\\" + fail_dir_name + case_name+"\\"
-        # subprocess.call(cmd)
+        fail_dir_name = time.strftime("%d_%H_%M_%S")
+        cmd = "adb pull sdcard/txz/log " + path.DIR_PATH + "\\report\\error_log\\" + fail_dir_name + case_name+"\\"
+        print(cmd)
+        os.system(cmd)
         raise Exception('测试失败')
 

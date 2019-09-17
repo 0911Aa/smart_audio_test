@@ -38,7 +38,7 @@ class Test_offline_radio:
         print("start_time",start_time)
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
-        ck.check(check_time,result,'电台case1')
+        ck.check(check_time,result,'radio_case1')
 
     @allure.story('0002.调幅九百')
     def test_case2(self):
@@ -64,7 +64,7 @@ class Test_offline_radio:
         print("start_time",start_time)
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
-        ck.check(check_time, result, '电台case2')
+        ck.check(check_time, result, 'radio_case2')
 
     @allure.story('0003.调频88')
     def test_case3(self):
@@ -81,7 +81,7 @@ class Test_offline_radio:
         print("start_time",start_time)
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
-        ck.check(check_time, result, '电台case3')
+        ck.check(check_time, result, 'radio_case3')
 
     @allure.story('0004.下一个频道，大于88')
     def test_case4(self):
@@ -111,7 +111,7 @@ class Test_offline_radio:
         print("start_time",start_time)
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
-        ck.check(check_time, result, '电台case4')
+        ck.check(check_time, result, 'radio_case4')
 
     @allure.story('0005.下一台，大于88.3')
     def test_case5(self):
@@ -141,7 +141,7 @@ class Test_offline_radio:
         print("start_time",start_time)
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
-        ck.check(check_time, result, '电台case5')
+        ck.check(check_time, result, 'radio_case5')
 
     @allure.story('0006.下一台，大于88.3')
     def test_case6(self):
@@ -171,7 +171,7 @@ class Test_offline_radio:
         print("start_time",start_time)
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
-        ck.check(check_time, result, '电台case6')
+        ck.check(check_time, result, 'radio_case6')
 
 
 
@@ -204,7 +204,7 @@ class Test_offline_radio:
         print("start_time",start_time)
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
-        ck.check(check_time, result, '电台case7')
+        ck.check(check_time, result, 'radio_case7')
 
     @allure.story('0008.上一个广播')
     def test_case8(self):
@@ -234,7 +234,7 @@ class Test_offline_radio:
         print("start_time",start_time)
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
-        ck.check(check_time, result, '电台case8')
+        ck.check(check_time, result, 'radio_case8')
 
     @allure.story('0009.上一个电台')
     def test_case9(self):
@@ -264,7 +264,7 @@ class Test_offline_radio:
         print("start_time",start_time)
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
-        ck.check(check_time, result, '电台case9')
+        ck.check(check_time, result, 'radio_case9')
 
 #
 # if __name__ == "__main__":

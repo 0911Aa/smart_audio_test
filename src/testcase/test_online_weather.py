@@ -39,7 +39,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("惠州明天|天气情况")
-        ck.check(check_time, result, '天气case1')
+        ck.check(check_time, result, 'weather_case1')
 
     @allure.story('0002.后天会下雨吗')
     def test_case2(self):
@@ -56,7 +56,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("惠州后天|天气情况")
-        ck.check(check_time, result, '天气case2')
+        ck.check(check_time, result, 'weather_case2')
 
     @allure.story('0003.明天有没有雨')
     def test_case3(self):
@@ -73,7 +73,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("惠州后天|天气情况")
-        ck.check(check_time, result, '天气case3')
+        ck.check(check_time, result, 'weather_case3')
 
     @allure.story('0004.后天啥天气')
     def test_case4(self):
@@ -90,7 +90,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("惠州后天|天气情况")
-        ck.check(check_time, result, '天气case4')
+        ck.check(check_time, result, 'weather_case4')
 
     @allure.story('0005.明天天气怎么样')
     def test_case5(self):
@@ -107,7 +107,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("惠州明天|天气情况")
-        ck.check(check_time, result, '天气case5')
+        ck.check(check_time, result, 'weather_case5')
 
     @allure.story('0006.后天有雨吗')
     def test_case6(self):
@@ -124,7 +124,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("惠州后天|天气情况")
-        ck.check(check_time, result, '天气case6')
+        ck.check(check_time, result, 'weather_case6')
 
     @allure.story('0007.帮我查一下**的天气')
     def test_case7(self):
@@ -141,7 +141,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("南昌今天天气情况")
-        ck.check(check_time, result, '天气case7')
+        ck.check(check_time, result, 'weather_case7')
 
     @allure.story('0008.北京的天气怎么样')
     def test_case8(self):
@@ -158,7 +158,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("北京今天天气情况")
-        ck.check(check_time, result, '天气case8')
+        ck.check(check_time, result, 'weather_case8')
 
     @allure.story('0009.查看上海的天气')
     def test_case9(self):
@@ -175,7 +175,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("上海今天天气情况")
-        ck.check(check_time, result, '天气case9')
+        ck.check(check_time, result, 'weather_case9')
 
     @allure.story('0010.请问徐州的天气怎么样')
     def test_case10(self):
@@ -192,7 +192,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("徐州今天天气情况")
-        ck.check(check_time, result, '天气case10')
+        ck.check(check_time, result, 'weather_case10')
 
     @allure.story('0011.请问徐州的天气怎么样')
     def test_case11(self):
@@ -208,7 +208,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("深圳明天的温度|深圳明天天气情况")
-        ck.check(check_time, result, '天气case11')
+        ck.check(check_time, result, 'weather_case11')
 
     @allure.story('0012.深圳天气')
     def test_case12(self):
@@ -225,7 +225,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("深圳明天天气情况")
-        ck.check(check_time, result, '天气case12')
+        ck.check(check_time, result, 'weather_case12')
 
     @allure.story('0013.深圳后天气温多少')
     def test_case13(self):
@@ -242,7 +242,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("深圳后天的温度")
-        ck.check(check_time, result, '天气case13')
+        ck.check(check_time, result, 'weather_case13')
 
     @allure.story('0014.深圳明天气温')
     def test_case14(self):
@@ -259,7 +259,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("深圳明天的温度|深圳明天天气情况")
-        ck.check(check_time, result, '天气case14')
+        ck.check(check_time, result, 'weather_case14')
 
     @allure.story('0015.北京明天天气')
     def test_case15(self):
@@ -276,7 +276,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("北京明天天气情况")
-        ck.check(check_time, result, '天气case15')
+        ck.check(check_time, result, 'weather_case15')
 
     @allure.story('0016.北京后天气温')
     def test_case16(self):
@@ -293,7 +293,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("北京后天天气情况|北京后天的温度")
-        ck.check(check_time, result, '天气case16')
+        ck.check(check_time, result, 'weather_case16')
 
     @allure.story('0017.北京明天温度')
     def test_case17(self):
@@ -310,7 +310,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("北京明天的温度")
-        ck.check(check_time, result, '天气case17')
+        ck.check(check_time, result, 'weather_case17')
 
     @allure.story('0018.北京后天下雨吗')
     def test_case18(self):
@@ -327,7 +327,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("北京后天|天气情况")
-        ck.check(check_time, result, '天气case18')
+        ck.check(check_time, result, 'weather_case18')
 
     @allure.story('0018.上海明天下雨吗')
     def test_case19(self):
@@ -344,7 +344,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("上海明天|天气情况")
-        ck.check(check_time, result, '天气case19')
+        ck.check(check_time, result, 'weather_case19')
 
     @allure.story('0020.上海后天有雨吗')
     def test_case20(self):
@@ -361,7 +361,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("上海后天|天气情况")
-        ck.check(check_time, result, '天气case20')
+        ck.check(check_time, result, 'weather_case20')
 
     @allure.story('0021.上海明天会下雨')
     def test_case21(self):
@@ -378,7 +378,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("上海明天|天气情况")
-        ck.check(check_time, result, '天气case21')
+        ck.check(check_time, result, 'weather_case21')
 
     @allure.story('0022.武汉明天天气')
     def test_case22(self):
@@ -395,7 +395,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("武汉明天天气情况")
-        ck.check(check_time, result, '天气case22')
+        ck.check(check_time, result, 'weather_case22')
 
     @allure.story('0023.武汉后天天气')
     def test_case23(self):
@@ -412,7 +412,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("武汉后天天气情况")
-        ck.check(check_time, result, '天气case23')
+        ck.check(check_time, result, 'weather_case23')
 
     @allure.story('0024.成都明天冷不冷')
     def test_case24(self):
@@ -429,7 +429,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("冷|最低温度|成都明天天气情况是")
-        ck.check(check_time, result, '天气case24')
+        ck.check(check_time, result, 'weather_case24')
 
     @allure.story('0025.成都后天最低温度')
     def test_case25(self):
@@ -446,7 +446,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("成都后天的温度是|成都后天天气情况是")
-        ck.check(check_time, result, '天气case25')
+        ck.check(check_time, result, 'weather_case25')
 
     @allure.story('0026.成都明天多少度')
     def test_case26(self):
@@ -463,7 +463,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("成都明天的温度是|成都明天天气情况是")
-        ck.check(check_time, result, '天气case26')
+        ck.check(check_time, result, 'weather_case26')
 
     @allure.story('0027.成都后天温度')
     def test_case27(self):
@@ -480,7 +480,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("成都后天的温度是|成都后天天气情况是")
-        ck.check(check_time, result, '天气case27')
+        ck.check(check_time, result, 'weather_case27')
 
     @allure.story('0028.青岛明天的天气')
     def test_case28(self):
@@ -497,7 +497,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("青岛明天天气情况是")
-        ck.check(check_time, result, '天气case28')
+        ck.check(check_time, result, 'weather_case28')
 
     @allure.story('0029.青岛后天气温')
     def test_case29(self):
@@ -514,7 +514,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("青岛后天的温度是|青岛后天天气情况是")
-        ck.check(check_time, result, '天气case29')
+        ck.check(check_time, result, 'weather_case29')
 
     @allure.story('0030.青岛明天会刮风')
     def test_case30(self):
@@ -531,7 +531,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("青岛明天|天气情况是")
-        ck.check(check_time, result, '天气case30')
+        ck.check(check_time, result, 'weather_case30')
 
     @allure.story('0031.青岛后天是高温吗')
     def test_case31(self):
@@ -548,7 +548,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("青岛后天的温度是|青岛后天天气情况是")
-        ck.check(check_time, result, '天气case31')
+        ck.check(check_time, result, 'weather_case31')
 
     @allure.story('0032.我明天切乌鲁木齐要带伞吗')
     def test_case32(self):
@@ -565,7 +565,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("乌鲁木齐明天|乌鲁木齐明天天气情况是")
-        ck.check(check_time, result, '天气case32')
+        ck.check(check_time, result, 'weather_case32')
 
     @allure.story('0033.今天多少号')
     def test_case33(self):
@@ -582,7 +582,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("今天是二零..年")
-        ck.check(check_time, result, '天气case33')
+        ck.check(check_time, result, 'weather_case33')
 
     @allure.story('0034.今天日期多少')
     def test_case34(self):
@@ -599,7 +599,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("今天是二零..年")
-        ck.check(check_time, result, '天气case34')
+        ck.check(check_time, result, 'weather_case34')
 
     @allure.story('0035.今天星期几')
     def test_case35(self):
@@ -616,7 +616,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("今天是星期")
-        ck.check(check_time, result, '天气case35')
+        ck.check(check_time, result, 'weather_case35')
 
     @allure.story('0036.查一下我的位置')
     def test_case36(self):
@@ -633,7 +633,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("您当前的位置是：广东省惠州市惠城区")
-        ck.check(check_time, result, '天气case36')
+        ck.check(check_time, result, 'weather_case36')
 
     @allure.story('0037.我现在在哪')
     def test_case37(self):
@@ -650,7 +650,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("您当前的位置是：广东省惠州市惠城区")
-        ck.check(check_time, result, '天气case37')
+        ck.check(check_time, result, 'weather_case37')
 
     @allure.story('0038.我在哪里')
     def test_case38(self):
@@ -667,9 +667,9 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("您当前的位置是：广东省惠州市惠城区")
-        ck.check(check_time, result, '天气case38')
+        ck.check(check_time, result, 'weather_case38')
 
-    @pytest.mark.P0
+    # @pytest.mark.P0
     @allure.story('0039.讲个笑话')
     def test_case39(self):
         play('你好小西', path.wake_up_file)
@@ -685,9 +685,9 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("..................................")
-        ck.check(check_time, result, '天气case39')
+        ck.check(check_time, result, 'weather_case39')
 
-    @pytest.mark.P0
+    # @pytest.mark.P0
     @allure.story('0040.红烧肉怎么做')
     def test_case40(self):
         play('你好小西', path.wake_up_file)
@@ -696,16 +696,16 @@ class Test_online_weather:
         time.sleep(2)
         play("红烧肉怎么", path.men_handle_file)
         time.sleep(40)
-        # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
+        # 惠州明天会下雨，weather_情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
         print("start_time",start_time)
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("五花肉切|干净后")
-        ck.check(check_time, result, '天气case40')
+        ck.check(check_time, result, 'weather_case40')
 
-    @pytest.mark.P0
+    # @pytest.mark.P0
     @allure.story('0041.中果最高的山')
     def test_case41(self):
         play('你好小西', path.wake_up_file)
@@ -721,7 +721,7 @@ class Test_online_weather:
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
         result = self.GDL.get_last_4_ret("中国最高的山：珠穆朗玛峰")
-        ck.check(check_time, result, '天气case41')
+        ck.check(check_time, result, 'weather_case41')
 # if __name__ == "__main__":
 #     ask = Music_ask()
     # ask.test_case1()
