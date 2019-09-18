@@ -21,4 +21,4 @@ def get_ROIimg(x1=760,y1=300,x2=1280,y2=490):
 
 if __name__ == "__main__":
 
-    get_ROIimg(100,245,364,485)
+    get_ROIimg(100,240,370,485)
