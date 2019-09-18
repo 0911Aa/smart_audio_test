@@ -362,7 +362,6 @@ class Test_online_weather:
         start_time, new_result = self.GDL.get_device_wake()
         print("start_time",start_time)
         check_time = abs(wake_finish_time-start_time)
-        get_mic_status.get_mic_status(self.driver)
         result = self.GDL.get_last_4_ret("上海后天|天气情况")
         ck.check(check_time, result, 'weather_case20')
 
