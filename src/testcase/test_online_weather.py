@@ -18,7 +18,7 @@ class Test_online_weather:
         cls.GDL = gdl.Get_device_log()
 
     def teardown(self):
-        cmd = 'del /F /S /Q ' + path.log_path + "test_all_new"
+        cmd = 'del /F /S /Q ' + path.log_path + "\\test_all_new"
         os.system(cmd)
 
     @allure.story('0001.明天雨大不大')
