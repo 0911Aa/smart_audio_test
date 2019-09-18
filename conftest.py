@@ -48,7 +48,8 @@ def pytest_runtest_makereport(item, call):
         try:
             f = adb_screen_shot()
             allure.attach(f, '失败截图', allure.attachment_type.PNG)
-            c = open(path.log_path,'r',encoding='utf-8').read()
+            cb = open(path.log_path,'rb').read()
+            c = cb.decode("utf-8","ignore")
             allure.attach(c, 'APPlog', allure.attachment_type.TEXT)
         except Exception as e:
             print(e,"截图或log抓取失败")
