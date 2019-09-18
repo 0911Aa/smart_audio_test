@@ -20,7 +20,7 @@ class Test_offline_radio:
         cls.GDL = gdl.Get_device_log()
 
     def teardown(self):
-        cmd = 'del /F /S /Q '+path.log_path+"\\test_all_new"
+        cmd = 'del /F /S /Q D:\\text_all_new'
         os.system(cmd)
 
     @allure.story('0001.打开收音机')

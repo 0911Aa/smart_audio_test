@@ -8,6 +8,7 @@ import pytest,time,allure
 from utils import check_time_and_result as ck
 from utils.driver import Driver
 from config import *
+from utils import get_mic_status
 
 @allure.feature("天气问答测试")
 @pytest.mark.P1
@@ -18,7 +19,9 @@ class Test_online_weather:
         cls.GDL = gdl.Get_device_log()
 
     def teardown(self):
-        cmd = 'del /F /S /Q ' + path.log_path + "\\test_all_new"
+        # del_path = path.new_log_path() + "\\"+"\\text_all_new"
+        cmd = 'del /F /S /Q D:\\text_all_new'
+        print("cmd",cmd)
         os.system(cmd)
 
     @allure.story('0001.明天雨大不大')
@@ -26,7 +29,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("明天雨大不", path.men_handle_file)
         time.sleep(40)
         # play("第一个", path.men_qa_file)
@@ -63,7 +66,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("明天有没有", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -80,7 +83,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("后天啥天气", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -97,7 +100,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("明天天气怎", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -114,7 +117,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("后天有雨吗", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -131,7 +134,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("帮我查一下", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -148,7 +151,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("北京的天气", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -165,7 +168,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("查看上海的", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -182,7 +185,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("请问徐州的", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -215,7 +218,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("深圳天气", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -232,7 +235,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("深圳后天气", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -249,7 +252,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("深圳明天气", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -266,7 +269,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("北京明天天", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -283,7 +286,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("北京后天气温", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -300,7 +303,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("北京明天温度", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -317,7 +320,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("北京后天下雨", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -334,7 +337,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("上海明天下雨", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -351,7 +354,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("上海后天有雨", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -359,7 +362,7 @@ class Test_online_weather:
         start_time, new_result = self.GDL.get_device_wake()
         print("start_time",start_time)
         check_time = abs(wake_finish_time-start_time)
-        print(check_time)
+        get_mic_status.get_mic_status(self.driver)
         result = self.GDL.get_last_4_ret("上海后天|天气情况")
         ck.check(check_time, result, 'weather_case20')
 
@@ -368,7 +371,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("上海明天会下雨", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -385,7 +388,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("武汉明天天气", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -402,7 +405,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("武汉后天天气", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -419,7 +422,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("成都明天冷不冷", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -436,7 +439,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("成都后天最低温度", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -453,7 +456,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("成都明天多少度", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -470,7 +473,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("成都后天的温度", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -487,7 +490,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("青岛明天的天气", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -504,7 +507,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("青岛后天气温", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -521,7 +524,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("青岛明天会刮风", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -538,7 +541,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("青岛后天是高温", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -555,7 +558,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("我明天去乌", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -572,7 +575,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("今天多少号", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -589,7 +592,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("今天日期多", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -606,7 +609,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("今天星期几", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -623,7 +626,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("查一下我的", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -640,7 +643,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("我现在在哪", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -657,7 +660,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("我在哪里", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -693,7 +696,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("红烧肉怎么", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，weather_情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -711,7 +714,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("中国最高的", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。

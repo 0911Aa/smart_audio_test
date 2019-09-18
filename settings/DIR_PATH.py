@@ -21,3 +21,15 @@ def file_path():
     with open(currtxt_path,'r')as f:
         file = f.read().strip()
         return file
+
+def new_log_path():
+    ls = DIR_PATH.split('\\',1)
+    new_log_path =ls[0]+"\\"+'\\'+ls[1]+"\logs"
+    return new_log_path
+    # print(new_log_path)
+
+# new_log_path()
+# del_path = new_log_path() + "\\" + "\\"+"text_all_new"
+# cmd = 'del /F /S /Q ' + del_path
+# print("cmd", cmd)
+# os.system(cmd)

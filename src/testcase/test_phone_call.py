@@ -17,7 +17,7 @@ class Test_Call:
         cls.GDL = gdl.Get_device_log()
 
     def teardown(self):
-        cmd = 'del /F /S /Q C:\\Users\pengfy\PycharmProjects\smart-audio\logs\\text_all_new'
+        cmd  = 'del /F /S /Q D:\\text_all_new'
         os.system(cmd)
 
     @allure.story('0001.拨打10086')

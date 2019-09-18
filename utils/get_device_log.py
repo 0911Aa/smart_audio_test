@@ -33,7 +33,7 @@ class Get_device_log:
                 # data1 = f1.read()
             with open(path.device_log_path+"\\text_all",'rb') as f2:
                 data2 = f2.read()
-            with open(path.device_log_path+"\\text_all_new",'a',encoding="utf-8") as f3:
+            with open("D:/text_all_new",'a',encoding="utf-8") as f3:
 
                 # f3.writelines(data1[-500:])
                 f3.write(data1.decode("utf-8","ignore"))
@@ -71,7 +71,7 @@ class Get_device_log:
         获取log中收到唤醒词的时间
         :return:
         """
-        with open(path.device_log_path+"\\text_all_new","r",encoding="utf-8") as f:
+        with open("D:/text_all_new","r",encoding="utf-8") as f:
             data = f.readlines()
             parse_list = []
             for line in data:
@@ -90,7 +90,7 @@ class Get_device_log:
         :return:
         """
 
-        with open(path.device_log_path+"\\text_all_new","r",encoding="utf-8") as f:
+        with open("D:/text_all_new","r",encoding="utf-8") as f:
             data = f.readlines()
             result_list = []
             for line in data:
@@ -110,7 +110,7 @@ class Get_device_log:
             return ret_time,new_result
 
     def get_last_ret(self,keyword):
-        with open(path.device_log_path+"\\text_all_new","r",encoding="utf-8") as f:
+        with open("D:/text_all_new","r",encoding="utf-8") as f:
             data = f.readlines()
             result_list = []
             for line in data:
@@ -126,7 +126,7 @@ class Get_device_log:
                 return None
 
     def get_last_4_ret(self,keyword):
-        with open(path.device_log_path+"\\text_all_new","r",encoding="utf-8") as f:
+        with open("D:/text_all_new","r",encoding="utf-8") as f:
             data = f.readlines()
             result_list = []
             for line in data:

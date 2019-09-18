@@ -7,7 +7,7 @@ import settings.DIR_PATH as path
 from PIL import Image
 
 def get_mic_status(driver):
-    for i in range(200):
+    for i in range(50):
         i+=1
         driver.screenshot(path.src_path + "mic.png")
         img = Image.open(path.src_path + "mic.png")
