@@ -3,7 +3,7 @@ import time,subprocess,os
 import settings.DIR_PATH as path
 from utils import get_device_log as gdl
 import uiautomator2 as u
-from utils import img_match
+from utils import img_match,get_mic_status
 from utils.img2str import get_str
 from utils.get_img_ROI import get_ROIimg
 from utils import check_time_and_result as ck
@@ -71,7 +71,7 @@ class Test_offline_radio:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(wake_time)
+        get_mic_status.get_mic_status(self.driver)
         play("调频88", path.men_qa_file)
         time.sleep(10)
         result = img_match.picture_match(self.driver,["radio88.png"],0.99)
