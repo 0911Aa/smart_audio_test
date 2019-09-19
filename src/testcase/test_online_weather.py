@@ -51,7 +51,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("后天会下雨", path.men_handle_file)
         time.sleep(40)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
@@ -204,7 +204,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("深圳明天的", path.men_handle_file)
         time.sleep(40)
         self.GDL.get_device_log()
@@ -679,7 +679,7 @@ class Test_online_weather:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
-        time.sleep(2)
+        get_mic_status.get_mic_status(self.driver)
         play("讲个笑话", path.men_handle_file)
         time.sleep(40)
         # 孙子说:“爷爷，水牛是啥样子?”爷爷说：“水牛跟普通牛长的差不多，不同的是它喜欢在水中生活。”孙子说：“噢，我懂啦，它一定是喜欢吃鱼吧。,,,,
