@@ -11,7 +11,7 @@ from config import *
 from utils import get_mic_status
 
 @allure.feature("天气问答测试")
-# @pytest.mark.P1
+@pytest.mark.P1
 class Test_online_weather:
     def setup_class(cls):
         dr = Driver()
@@ -24,7 +24,7 @@ class Test_online_weather:
         print("cmd",cmd)
         os.system(cmd)
 
-    @pytest.mark.P1
+    # @pytest.mark.P1
     @allure.story('0001.明天雨大不大')
     def test_case1(self):
         play('你好小西', path.wake_up_file)
@@ -45,7 +45,7 @@ class Test_online_weather:
         result = self.GDL.get_last_4_ret("惠州明天|天气情况")
         ck.check(check_time, result, 'weather_case1')
 
-    @pytest.mark.P1
+    # @pytest.mark.P1
     @allure.story('0002.后天会下雨吗')
     def test_case2(self):
         play('你好小西', path.wake_up_file)
