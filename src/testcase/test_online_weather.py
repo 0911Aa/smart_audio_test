@@ -11,7 +11,7 @@ from config import *
 from utils import get_mic_status
 
 @allure.feature("天气问答测试")
-@pytest.mark.P2
+@pytest.mark.P1
 class Test_online_weather:
     def setup_class(cls):
         dr = Driver()
