@@ -46,8 +46,11 @@ def pytest_runtest_makereport(item, call):
     rep = outcome.get_result()
     if rep.when == "call" and rep.failed:
         try:
-            f = adb_screen_shot()
-            allure.attach(f, '失败截图', allure.attachment_type.PNG)
+            # f = adb_screen_shot()
+            # f1 = open(path.Cache_img_path1, 'rb').read()
+            f2 = open(path.Cache_img_path2, 'rb').read()
+            # allure.attach(f1, '失败截图', allure.attachment_type.PNG)
+            allure.attach(f2, '失败截图', allure.attachment_type.PNG)
             cb = open(path.log_path,'rb').read()
             c = cb.decode("utf-8","ignore")
             allure.attach(c, 'APPlog', allure.attachment_type.TEXT)

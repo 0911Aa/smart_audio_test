@@ -16,7 +16,8 @@ women_qa_file = PC_PATH+'\\audio\\question\\women_question\\qa_class\\'
 img_path = DIR_PATH+"\\img\\"
 src_path = DIR_PATH+"\\src\\"
 log_path = DIR_PATH+"\\logs\\text_all"
-
+Cache_img_path1 = DIR_PATH+"\\img\\Cache_img\\cache1.png"
+Cache_img_path2 = DIR_PATH+"\\img\\Cache_img\\cache2.png"
 def file_path():
     with open(currtxt_path,'r')as f:
         file = f.read().strip()

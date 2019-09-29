@@ -11,7 +11,7 @@ from config import *
 from utils import get_mic_status
 
 @allure.feature("天气问答测试")
-# @pytest.mark.P1
+@pytest.mark.P2
 class Test_online_weather:
     def setup_class(cls):
         dr = Driver()
@@ -20,11 +20,13 @@ class Test_online_weather:
 
     def teardown(self):
         # del_path = path.new_log_path() + "\\"+"\\text_all_new"
+        print("this case finishd")
+        time.sleep(2)
         cmd = 'del /F /S /Q D:\\text_all_new'
         print("cmd",cmd)
         os.system(cmd)
 
-    @pytest.mark.P1
+    # @pytest.mark.P1
     @allure.story('0001.明天雨大不大')
     def test_case1(self):
         play('你好小西', path.wake_up_file)
@@ -32,7 +34,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("明天雨大不", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(32)
         # play("第一个", path.men_qa_file)
         # time.sleep(10)
         # result = img_match.picture_match(self.driver,"phone_call.png")
@@ -45,7 +49,7 @@ class Test_online_weather:
         result = self.GDL.get_last_4_ret("惠州明天|天气情况")
         ck.check(check_time, result, 'weather_case1')
 
-    @pytest.mark.P1
+    # @pytest.mark.P1
     @allure.story('0002.后天会下雨吗')
     def test_case2(self):
         play('你好小西', path.wake_up_file)
@@ -53,7 +57,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("后天会下雨", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(32)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -70,7 +76,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("明天有没有", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -87,7 +95,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("后天啥天气", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -104,7 +114,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("明天天气怎", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -121,7 +133,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("后天有雨吗", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -138,7 +152,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("帮我查一下", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -155,7 +171,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("北京的天气", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -172,7 +190,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("查看上海的", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -189,7 +209,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("请问徐州的", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -206,7 +228,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("深圳明天的", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
         print("start_time",start_time)
@@ -222,7 +246,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("深圳天气", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -239,14 +265,16 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("深圳后天气", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
         print("start_time",start_time)
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
-        result = self.GDL.get_last_4_ret("深圳后天的温度")
+        result = self.GDL.get_last_4_ret("深圳后天的温度|深圳后天天气情况")
         ck.check(check_time, result, 'weather_case13')
 
     @allure.story('0014.深圳明天气温')
@@ -256,7 +284,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("深圳明天气", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -273,7 +303,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("北京明天天", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -290,7 +322,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("北京后天气温", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -307,7 +341,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("北京明天温度", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -324,7 +360,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("北京后天下雨", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -334,14 +372,16 @@ class Test_online_weather:
         result = self.GDL.get_last_4_ret("北京后天|天气情况")
         ck.check(check_time, result, 'weather_case18')
 
-    @allure.story('0018.上海明天下雨吗')
+    @allure.story('0019.上海明天下雨吗')
     def test_case19(self):
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("上海明天下雨", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -358,7 +398,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("上海后天有雨", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -374,7 +416,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("上海明天会下雨", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -391,7 +435,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("武汉明天天气", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -408,7 +454,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("武汉后天天气", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -425,7 +473,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("成都明天冷不冷", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -442,7 +492,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("成都后天最低温度", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -459,7 +511,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("成都明天多少度", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -476,7 +530,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("成都后天的温度", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -493,7 +549,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("青岛明天的天气", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -510,7 +568,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("青岛后天气温", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -527,7 +587,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("青岛明天会刮风", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -544,7 +606,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("青岛后天是高温", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -561,7 +625,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("我明天去乌", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -578,7 +644,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("今天多少号", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -595,7 +663,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("今天日期多", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -612,7 +682,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("今天星期几", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -629,7 +701,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("查一下我的", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -646,7 +720,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("我现在在哪", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -663,7 +739,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("我在哪里", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -681,7 +759,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("讲个笑话", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 孙子说:“爷爷，水牛是啥样子?”爷爷说：“水牛跟普通牛长的差不多，不同的是它喜欢在水中生活。”孙子说：“噢，我懂啦，它一定是喜欢吃鱼吧。,,,,
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -699,7 +779,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("红烧肉怎么", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，weather_情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()
@@ -717,7 +799,9 @@ class Test_online_weather:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)
         play("中国最高的", path.men_handle_file)
-        time.sleep(40)
+        time.sleep(5)
+        self.driver.screenshot(path.Cache_img_path2)
+        time.sleep(35)
         # 惠州明天会下雨，天气情况是：暴雨转雷阵雨，25至29℃，微风(无持续风向)。雨天请您带好雨具，路面湿滑，出行注意安全。
         self.GDL.get_device_log()
         start_time, new_result = self.GDL.get_device_wake()

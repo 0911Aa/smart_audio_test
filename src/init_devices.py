@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import subprocess
 
+subprocess.call("adb connect 192.168.0.2:5555")
 cmds = [
     "cd sdcard/txz",
     'touch log_enable_file',

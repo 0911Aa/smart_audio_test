@@ -30,5 +30,23 @@ def wake_rate():
         print(test_num,pass_num)
 
 
+def single_wake_rate(i):
+    print("第"+str(i)+"次测试")
+    pyaudio.PyAudio()
+    thread = threading.Thread(target=get_audio,)
+    thread.start()
+    time.sleep(2)
+    play('man_wake_up')
+    time.sleep(20)
+    with open(path.result_path,"r") as f:
+        data = f.read()
+        print(data)
+        if data != "None":
+            print("识别结果：",data)
+            if "你好" in data:
+                del_path = path.file_path()
+                os.system("del /F /S /Q "+del_path)
 
-wake_rate()
+
+if __name__ =='__main__':
+    wake_rate()
