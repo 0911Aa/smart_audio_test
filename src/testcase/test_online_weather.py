@@ -350,7 +350,7 @@ class Test_online_weather:
         print("start_time",start_time)
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
-        result = self.GDL.get_last_4_ret("北京明天的温度")
+        result = self.GDL.get_last_4_ret("北京明天天气情况|北京明天的温度")
         ck.check(check_time, result, 'weather_case17')
 
     @allure.story('0018.北京后天下雨吗')
@@ -808,7 +808,7 @@ class Test_online_weather:
         print("start_time",start_time)
         check_time = abs(wake_finish_time-start_time)
         print(check_time)
-        result = self.GDL.get_last_4_ret("中国最高的山：珠穆朗玛峰")
+        result = self.GDL.get_last_4_ret("中国最高的山|珠穆朗玛峰")
         ck.check(check_time, result, 'weather_case41')
 # if __name__ == "__main__":
 #     ask = Music_ask()
