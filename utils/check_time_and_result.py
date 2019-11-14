@@ -13,9 +13,9 @@ def check(check_time,result,case_name):
         print("\033[7;31m%scase pass...\033[0m"%case_name)
     else:
         fail_dir_name = time.strftime("%d_%H_%M_%S")
-		dir_path = path.DIR_PATH + "\\report\\error_log\\" + fail_dir_name + case_name+"\\"
-		print(dir_path)
-		#os.makedirs(dir_path)
+        dir_path = path.DIR_PATH + "\\report\\error_log\\" + fail_dir_name + case_name+"\\"
+        print(dir_path)
+        os.makedirs(dir_path)
         cmd = "adb pull sdcard/txz/log " + dir_path
         print(cmd)
         os.system(cmd)
