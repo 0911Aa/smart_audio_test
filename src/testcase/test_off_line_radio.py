@@ -11,7 +11,7 @@ from utils.driver import Driver
 from config import *
 import pytest,time,allure,sys
 
-@pytest.mark.P2
+@pytest.mark.P1
 @allure.feature("电台测试")
 class Test_offline_radio:
     def setup_class(cls):
