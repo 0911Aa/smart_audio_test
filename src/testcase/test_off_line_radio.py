@@ -20,6 +20,8 @@ class Test_offline_radio:
         cls.GDL = gdl.Get_device_log()
 
     def teardown(self):
+        print("this case finishd")
+        time.sleep(2)
         cmd = 'del /F /S /Q D:\\text_all_new'
         os.system(cmd)
 
