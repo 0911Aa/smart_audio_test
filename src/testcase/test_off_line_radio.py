@@ -32,7 +32,6 @@ class Test_offline_radio:
         print("wake_finish_time",wake_finish_time)
         get_mic_status.get_mic_status(self.driver)   #获取麦克风图标状态
         play("打开收音机", path.men_qa_file)          #播放问题
-        time.sleep(1)
         self.driver.screenshot(path.Cache_img_path2)
         time.sleep(9)
         result = img_match.picture_match(self.driver,["radio.png"],0.95)
@@ -100,6 +99,7 @@ class Test_offline_radio:
         play('你好小西', path.wake_up_file)
         wake_finish_time = self.GDL.get_local_time()
         get_mic_status.get_mic_status(self.driver)
+        play("下一个频道", path.men_qa_file)
         print("wake_finish_time",wake_finish_time)
         time.sleep(0.5)
         self.driver.screenshot(path.Cache_img_path2)
