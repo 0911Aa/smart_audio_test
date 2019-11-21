@@ -7,7 +7,7 @@ import settings.DIR_PATH as path
 
 
 
-def get_ROIimg(x1=760,y1=300,x2=1280,y2=490):
+def get_ROIimg(x1=760,y1=300,x2=1150,y2=490):
 
     img = Image.open(path.src_path + "file.png")
 
@@ -21,4 +21,5 @@ def get_ROIimg(x1=760,y1=300,x2=1280,y2=490):
 
 if __name__ == "__main__":
 
-    get_ROIimg(100,240,370,485)
+    # get_ROIimg(100,240,370,485)
+    get_ROIimg()
