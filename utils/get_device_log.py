@@ -7,7 +7,7 @@ class Get_device_log:
     def get_local_time(self):
         local_time = time.strftime("%X")
         print(local_time)
-        ret_time = int(local_time.split(":")[1]) * 60 + float(local_time.split(":")[2])
+        ret_time = int(local_time.split(":")[0])*3600+int(local_time.split(":")[1]) * 60 + float(local_time.split(":")[2])
         return ret_time
 
     def get_device_log(self):
@@ -16,14 +16,12 @@ class Get_device_log:
         :return:
         """
         try:
-            cmd = "adb pull sdcard/txz/log/text_all "+path.device_log_path
-            subprocess.call(cmd,shell=True)
             cmd = "adb pull sdcard/txz/log/text_all_1 "+path.device_log_path
             subprocess.call(cmd,shell=True)
-            cmd = "adb pull sdcard/txz/log/text_all_1 "+path.device_log_path
-            subprocess.call(cmd,shell=True)
-            cmd = "adb pull sdcard/txz/log/text_all "+path.device_log_path
-            subprocess.call(cmd,shell=True)
+            # cmd = "adb pull sdcard/txz/log/text_all_1 "+path.device_log_path
+            # subprocess.call(cmd,shell=True)
+            # cmd = "adb pull sdcard/txz/log/text_all "+path.device_log_path
+            # subprocess.call(cmd,shell=True)
             # p = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             # file_list = os.listdir(path.device_log_path+"\\log")
             # print(file_list)
@@ -31,16 +29,24 @@ class Get_device_log:
             with open(path.device_log_path+"\\text_all_1",'rb') as f1:
                 data1 = f1.read()
                 # data1 = f1.read()
-            with open(path.device_log_path+"\\text_all",'rb') as f2:
-                data2 = f2.read()
-            with open("D:/text_all_new",'a',encoding="utf-8") as f3:
+            with open("D:/text_all_new", 'a', encoding="utf-8") as f3:
 
                 # f3.writelines(data1[-500:])
-                f3.write(data1.decode("utf-8","ignore"))
-                time.sleep(1)
-                f3.write(data2.decode("utf-8","ignore"))
+                f3.write(data1.decode("utf-8", "ignore"))
         except Exception as e:
             print(e)
+        try:
+            cmd = "adb pull sdcard/txz/log/text_all " + path.device_log_path
+            subprocess.call(cmd, shell=True)
+            with open(path.device_log_path + "\\text_all", 'rb') as f2:
+                data2 = f2.read()
+            with open("D:/text_all_new", 'a', encoding="utf-8") as f3:
+
+                # f3.writelines(data1[-500:])
+                f3.write(data2.decode("utf-8", "ignore"))
+        except Exception as e:
+            print(e)
+
         # else:
         #     cmd = "adb pull sdcard/txz/log/text_all " + path.device_log_path
         #     subprocess.call(cmd, shell=True)
@@ -81,7 +87,8 @@ class Get_device_log:
             # print(parse_list)
             last_line = parse_list[-1]
             result_time = last_line.split(" ")[1].split("]")[0]
-            ret_time = int(result_time.split(":")[1]) * 60 + float(result_time.split(":")[2])
+            time_list = result_time.split(":")
+            ret_time = int(time_list[0])*3600+int(time_list[1]) * 60 + float(time_list[2])
             return ret_time
 
     def get_device_wake(self):
@@ -105,7 +112,8 @@ class Get_device_log:
             # print(last_line)
             result_time = last_line.split(" ")[1].split("]")[0]
             new_result = last_line.split("text=")[1]
-            ret_time = int(result_time.split(":")[1])*60+float(result_time.split(":")[2])
+            time_list = result_time.split(":")
+            ret_time = int(time_list[0])*3600+int(time_list[1])*60+float(time_list[2])
             # print(ret_time,new_result)
             return ret_time,new_result
 
@@ -149,6 +157,7 @@ if __name__ == "__main__":
     # print(end_time)
     end_time = gl.get_device_wake()
     print(end_time)
-    # start_time = gl.get_begin_parse()
-    # print(start_time)
+    start_time = gl.get_begin_parse()
+    print(start_time)
+    print(gl.get_local_time())
     # print(gl.get_last_ret("已为您规划3个导航路线"))
