@@ -41,7 +41,7 @@ if __name__ == "__main__":
     base_path = DIR_PATH.DIR_PATH
     pytest.main(["-s",base_path+"/src/testcase","--alluredir="+base_path+"/data", "-m=P1"])
     # "--reruns=2",
-    run.init_report()
+    # run.init_report()
 
 #pytest -v 说明：可以输出用例更加详细的执行信息，比如用例所在的文件及用例名称等
 #pytest -s 说明：输入我们用例中的调式信息，比如print的打印信息等
