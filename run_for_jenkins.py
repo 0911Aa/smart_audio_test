@@ -51,7 +51,7 @@ class Run:
 
 if __name__ == "__main__":
     run = Run()
-    get_batch_size()
+    run.get_batch_size()
     run.init_env()
     base_path = DIR_PATH.DIR_PATH
     if config.status:
