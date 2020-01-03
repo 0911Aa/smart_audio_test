@@ -34,12 +34,33 @@ class Run:
         report_path = project_path + "/reports/" + "index.html"
         print("报告地址:{}".format(report_path))
 
+    def get_batch_size(self):
+        #['run_for_jenkins.py', '23']
+        print("参数---->",sys.argv)
+        print('---------->',type(sys.argv))
+        testtimes = sys.argv[1]
+        stopTimes = sys.argv[-1]
+        print("test_times",testtimes)
+        config.test_times = int(testtimes)
+        if sys.argv[2] == 'on':
+            config.status = True
+        else:
+            config.status=False
+        config.stop_times = stopTimes
+
 
 if __name__ == "__main__":
     run = Run()
+    get_batch_size()
     run.init_env()
     base_path = DIR_PATH.DIR_PATH
-    pytest.main(["-s",base_path+"/src/testcase","--alluredir="+base_path+"/data", "-m=P1"])
+    if config.status:
+        pytest.main(["-s",base_path+"/src/testcase","--alluredir="+base_path+"/data", "-m=P1","-x","--maxfail="+config.stop_times])
+    # "--reruns=2",
+    else:
+        pytest.main(["-s", base_path + "/src/testcase", "--alluredir=" + base_path + "/data", "-m=P1"])
+    run.init_report()
+    # pytest.main(["-s",base_path+"/src/testcase","--alluredir="+base_path+"/data", "-m=P1"])
     # "--reruns=2",
     # run.init_report()
 
