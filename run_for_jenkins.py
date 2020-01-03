@@ -6,7 +6,7 @@ import pytest,os,subprocess,time
 from settings import DIR_PATH
 import sys
 sys.path.append(DIR_PATH.DIR_PATH)
-
+import config
 
 class Run:
     def __init__(self):
